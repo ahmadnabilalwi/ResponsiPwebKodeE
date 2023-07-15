@@ -1,0 +1,9 @@
+Nama: azri damanik | Paket: 2
+Nama: azri damanik | Paket: 1
+Nama: azri damanik | Paket: Paket B
+Nama: mhs | Paket: Paket B
+Nama: key | Paket: Paket B
+Nama: after ALAMAT | Paket: Paket B
+Nama: mhs | Paket: Paket A
+Nama: o | Paket: 2
+Nama: halodek | Paket: Paket A

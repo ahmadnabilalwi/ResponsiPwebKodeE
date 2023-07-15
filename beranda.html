@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KOST Ayu</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation">
+        <a href="#home">Beranda</a>
+        <a href="#booking">Booking</a>
+    </div>
+
+    <div class="container">
+        <h1>KOST Ayu</h1>
+        <h2 class="sub-heading">Aman Dan Terhindar Dari Pergaulan Bebas</h2>
+
+        <div id="packages">
+            <h2 class="section-heading">Paket Tersedia</h2>
+            <div class="package">
+                <img src="a.png" alt="Paket A">
+                <h3>Paket A</h3>
+                <p>Harga: Rp 1.000.000</p>
+                <p>Fasilitas: Kasur, Lemari, Meja</p>
+            </div>
+            <div class="package">
+                <img src="b.jpg" alt="Paket B">
+                <h3>Paket B</h3>
+                <p>Harga: Rp 1.500.000</p>
+                <p>Fasilitas: AC, Kasur, Lemari, Meja</p>
+            </div>
+            <div class="package">
+                <img src="c.jpg" alt="Paket C">
+                <h3>Paket C</h3>
+                <p>Harga: Rp 2.000.000</p>
+                <p>Fasilitas: AC, TV, Kasur, Lemari, Meja, Kamar Mandi Dalam</p>
+            </div>
+        </div>
+
+        <div id="booking">
+            <h2 class="section-heading">Booking Kamar</h2>
+            <form id="booking-form" action="process_booking.php" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="package">Paket:</label>
+                <select id="package" name="package" required>
+                    <option value="">Pilih paket</option>
+                    <option value="Paket A">Paket A</option>
+                    <option value="Paket B">Paket B</option>
+                    <option value="Paket C">Paket C</option>
+                </select>
+                <label for="date">Tanggal:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Book</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
